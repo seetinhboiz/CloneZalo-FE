@@ -1,0 +1,11 @@
+.wrapper {
+    display: flex;
+}
+
+.menu-side {
+    width: 5%;
+}
+
+.contact-list {
+    width: 25%;
+}

@@ -1,0 +1,37 @@
+<div class="background">
+  <div class="overlay"></div>
+  <div class="wrapper">
+    <h1 class="title">Zalo</h1>
+    <h6 class="subtitle">
+      Đăng nhập tài khoản Zalo để kết nối với ứng dụng Zalo Web
+    </h6>
+    <span class="card">
+      <mat-card class="example-card" appearance="outlined">
+        <mat-card-header>
+          <mat-card-title>Đăng nhập</mat-card-title>
+        </mat-card-header>
+        <mat-card-content>
+          <div class="form">
+            <form class="example-form" [formGroup]="loginForm">
+              <mat-form-field class="example-full-width">
+                <mat-label>Tài khoản người dùng</mat-label>
+                <input
+                  matInput
+                  placeholder="admin"
+                  formControlName="username"
+                />
+              </mat-form-field>
+              <mat-form-field class="example-full-width">
+                <mat-label>Mật khẩu</mat-label>
+                <input matInput placeholder="123" formControlName="password" />
+              </mat-form-field>
+            </form>
+          </div>
+        </mat-card-content>
+        <mat-card-actions>
+          <button mat-button (click)="handleLogin()">Đăng nhập</button>
+        </mat-card-actions>
+      </mat-card>
+    </span>
+  </div>
+</div>
