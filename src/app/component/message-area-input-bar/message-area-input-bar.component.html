@@ -1,0 +1,30 @@
+<div class="input-area">
+  <div class="option-type-input">
+    <button
+      mat-icon-button
+      aria-label="Example icon button with a vertical three dot icon"
+    >
+      <mat-icon>attachment</mat-icon>
+    </button>
+  </div>
+  <div class="input-text">
+    <form class="example-form">
+      <input
+        matInput
+        placeholder="Nhập tin nhắn ..."
+        class="input-message"
+        [formControl]="newMessage"
+        (keyup)="handleSend($event)"
+      />
+    </form>
+    <div>
+      <button
+        mat-icon-button
+        aria-label="vertical three dot icon"
+        (click)="handleSend()"
+      >
+        <mat-icon class="button-send">send</mat-icon>
+      </button>
+    </div>
+  </div>
+</div>

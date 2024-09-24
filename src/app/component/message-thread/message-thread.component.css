@@ -1,0 +1,25 @@
+.wrapper {
+  border-left: 1px solid #9facbd;
+  height: 100vh;
+}
+
+.divider {
+  border-top-color: #9facbd;
+  margin-bottom: 10px;
+}
+
+.message-reply {
+  margin-top: 10px;
+}
+
+.example-button-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-bar {
+  width: 100%;
+  overflow: hidden;
+}

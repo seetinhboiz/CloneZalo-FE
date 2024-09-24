@@ -1,0 +1,29 @@
+<div class="wrapper">
+  <div class="option">
+    <img
+      src="https://res.cloudinary.com/dva62xqbp/image/upload/v1694239124/ren7l0zpxqllb4ahi0m8.jpg"
+      alt="avatar"
+      class="above-avatar"
+    />
+  </div>
+  <div class="below-option">
+    <div class="group-icon">
+      <button
+        mat-mini-fab
+        aria-label="Add people"
+        class="button-icon flip-button"
+        (click)="openPersonDialog()"
+      >
+        <mat-icon>person_add</mat-icon>
+      </button>
+      <button
+        mat-mini-fab
+        aria-label="Add people into group"
+        class="button-icon"
+        (click)="openGroupDialog()"
+      >
+        <mat-icon>group_add</mat-icon>
+      </button>
+    </div>
+  </div>
+</div>

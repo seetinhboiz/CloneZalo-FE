@@ -1,0 +1,23 @@
+<div class="wrapper">
+  <div class="main-message">
+    <div class="message-header">
+      <img
+        [src]="this.messageThead()?.userSend?.avatar"
+        alt=""
+        class="user-avatar"
+      />
+      <div class="user-info">
+        <div class="username">
+          {{ this.messageThead()?.userSend?.username }}
+        </div>
+        <div class="last-message-date">{{ this.messageThead()?.date }}</div>
+      </div>
+    </div>
+
+    <div class="main-message">
+      <mat-card appearance="outlined">
+        <mat-card-content>{{ this.messageThead()?.content }}</mat-card-content>
+      </mat-card>
+    </div>
+  </div>
+</div>

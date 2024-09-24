@@ -1,0 +1,32 @@
+.input-area {
+  height: 100px;
+}
+
+.option-type-input {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  border-bottom: 1px solid #d6dbe1;
+}
+
+.input-text {
+  display: flex;
+  align-items: center;
+}
+
+.example-form {
+  width: 90%;
+  height: 60px;
+}
+
+.input-message {
+  height: 100%;
+  width: 100%;
+  padding-left: 10px;
+  border: none;
+  outline: #fff;
+}
+
+.button-send {
+  color: #0091ff;
+}

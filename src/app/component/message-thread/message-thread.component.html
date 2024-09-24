@@ -1,0 +1,25 @@
+<div class="wrapper">
+  <app-message-thread-main-message [messageThead]="this.messageThread()"/>
+
+  <mat-divider class="divider"></mat-divider>
+
+  <div class="reply-message-area">
+    <!-- Reply mess -->
+    @for (item of this.messageThread().replyMessage; track $index) {
+      <app-message-card-content [message]="item" [isReplyMessage]="true"/>
+    }
+  </div>
+
+  <div class="input-bar">
+    <app-message-area-input-bar [typeMessage]="typeMessage"/>
+  </div>
+
+  <div>
+    <div class="example-button-container">
+      <button mat-fab extended (click)="handleCloseThread()">
+        <mat-icon>keyboard_backspace</mat-icon>
+        Đóng
+      </button>
+    </div>
+  </div>
+</div>

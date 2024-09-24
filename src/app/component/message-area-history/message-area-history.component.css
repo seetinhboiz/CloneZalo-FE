@@ -1,0 +1,70 @@
+.example-viewport {
+  height: calc(100vh - 70px - 100px);
+  width: 100%;
+  background-color: #eef0f1;
+}
+
+.example-item {
+  min-height: 50px;
+  padding: 20px 0;
+}
+
+.user-avatar-send {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid #000;
+  margin: 0 20px;
+}
+
+.wrapper-received-message {
+  display: flex;
+}
+
+.received-message {
+  background-color: transparent;
+}
+
+.wrapper-send-message {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.send-message {
+  background-color: #e5efff;
+}
+
+.date-message {
+  color: #9facbd;
+  font-size: 0.8rem;
+}
+
+.message-and-menu {
+  display: flex;
+  align-items: center;
+}
+
+.show-reply-button {
+  font-size: 0.8rem;
+}
+
+.show-reply-button:hover {
+  cursor: pointer;
+  transition: ease 0.2s;
+  color: #0091ff;
+}
+
+.wrapper-reply-received-message {
+  margin-right: 40px;
+}
+
+.reply-message {
+  font-size: 0.8rem;
+}
+
+.reply-form {
+  display: flex;
+  align-items: center;
+}

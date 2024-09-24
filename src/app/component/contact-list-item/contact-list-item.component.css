@@ -1,0 +1,26 @@
+.contact-item {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  height: 80px;
+}
+
+.contact-item:hover {
+  transition: 0.5s ease;
+  background-color: aliceblue;
+  cursor: pointer;
+}
+
+.user-avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid #000;
+  margin: 0 20px;
+}
+
+.last-message {
+  color: #9facbd;
+  font-size: 0.8rem;
+}

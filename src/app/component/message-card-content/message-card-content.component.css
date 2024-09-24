@@ -1,0 +1,59 @@
+.user-avatar-send {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid #000;
+  margin: 0 20px;
+}
+
+.wrapper-received-message {
+  display: flex;
+}
+
+.received-message {
+  background-color: transparent;
+}
+
+.date-message {
+  color: #9facbd;
+  font-size: 0.8rem;
+}
+
+.message-and-menu {
+  display: flex;
+  align-items: center;
+}
+
+.show-reply-button {
+  font-size: 0.8rem;
+}
+
+.show-reply-button:hover {
+  cursor: pointer;
+  transition: ease 0.2s;
+  color: #0091ff;
+}
+
+.wrapper-sended-message {
+  display: flex;
+  justify-content: right;
+}
+
+.send-message {
+  background-color: #e5efff;
+}
+
+.date-sended-message {
+  text-align: right;
+}
+
+.message-and-menu {
+  display: flex;
+  justify-content: right;
+}
+
+.align-right {
+  display: flex;
+  justify-content: right;
+}
