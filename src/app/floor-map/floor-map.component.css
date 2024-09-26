@@ -1,0 +1,12 @@
+.wrapper {
+  display: flex;
+}
+
+.map {
+  display: block;
+  flex: 2;
+}
+
+.room-detail {
+  flex: 1;
+}

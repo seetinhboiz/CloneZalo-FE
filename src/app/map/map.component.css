@@ -1,0 +1,31 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+
+.wrapper-zoomer {
+  height: 80%;
+  width: 100%;
+}
+
+.image-svg {
+  height: 80%;
+}
+
+svg path:hover {
+  fill: #000 !important;
+  transition: 0.2s ease;
+  cursor: pointer;
+}
+
+.wrapper-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  margin-right: 10px;
+  margin-left: 10px;
+}

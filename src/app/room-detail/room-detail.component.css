@@ -1,0 +1,26 @@
+.wrapper {
+  width: 100%;
+}
+
+.first-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  font-weight: 500;
+  font-size: 1.2rem;
+  margin-top: 20px;
+}
+
+.info-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+table {
+  width: 100%;
+  margin-top: 20px;
+}
